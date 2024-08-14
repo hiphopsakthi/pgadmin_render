@@ -1,4 +1,4 @@
-FROM dpage/pgadmin4
+FROM dpage/pgadmin4:8.4
 USER root
-RUN setcap -r /usr/bin/python3.8
+RUN setcap -r /usr/bin/python3.11
 USER pgadmin
